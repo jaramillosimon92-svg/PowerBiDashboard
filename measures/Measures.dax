@@ -1,0 +1,11 @@
+Total Sales = SUM(SalesData[Revenue])
+
+Total Profit = SUM(SalesData[Profit])
+
+Units Sold = SUM(SalesData[Units Sold])
+
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+Inventory Units = SUM(InventoryData[Units On Hand])
+
+Reorder Items = CALCULATE(COUNTROWS(InventoryData), InventoryData[Stock Status] = "Reorder")
