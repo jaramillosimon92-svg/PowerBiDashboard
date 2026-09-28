@@ -37,9 +37,3 @@ Reorder Items = CALCULATE(COUNTROWS(InventoryData), InventoryData[Stock Status] 
 5. Build one report page with KPI cards for Total Sales, Total Profit, Profit Margin, and Reorder Items.
 6. Add a line chart for monthly sales, a bar chart for sales by region, a column chart for profit by category, and a table for inventory items requiring reorder.
 7. Add slicers for Region and Category. Use a clean navy, white, and light-gray theme.
-
-## Resume-ready wording
-
-Use this only after finishing the dashboard:
-
-> Built an interactive Power BI dashboard to track sales, profit, inventory levels, and product performance across regions and categories. Cleaned and modeled source data in Power Query; created DAX measures and decision-ready KPI cards, charts, and filters.
